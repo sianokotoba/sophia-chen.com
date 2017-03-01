@@ -2,6 +2,7 @@
 'use strict';
 
 var webpack = require('webpack');
+var secret = require('./secrets');
 
 module.exports = {
   entry: './browser/index.js',
@@ -11,6 +12,16 @@ module.exports = {
   },
   context: __dirname,
   devtool: 'source-map',
+  plugins: [
+    new CopyWebpackPlugin([
+      {
+        transform: function(content, path) {
+          return content.toString().replace(secret, "AIzaSyCywkqjQe8n46Sd-xg2DWuwNBHRRm7w8fU");
+        },
+        from: './public/index.html'
+      }
+    ])
+  ],
   module: {
     loaders: [
       {
