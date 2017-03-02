@@ -15,7 +15,8 @@ class darkMain extends Component {
   }
 
   componentWillMount() {
-    if (videoURL.ma) {
+    if (videoRef) {
+      var videoURL = videoRef.getDownloadURL();
       this.setState({ url: videoURL.ma });
     }
   }
@@ -29,7 +30,7 @@ class darkMain extends Component {
     console.log("VU", videoURL.ma);
     console.log("URL on state", url);
     return (
-      <div className="row">
+      <div className="row dark-main">
         <video tabIndex="0" autoPlay="autoplay" preload="preload" loop>
           <source type="video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;" src={url}>
           </source>
@@ -42,7 +43,7 @@ class darkMain extends Component {
         </div>
         <div className="col-lg-2 col-md-2 col-sm-2 col-xs-2"></div>
 
-        <div className="banner-container">
+        <div className="banner-container above-bio">
           <div className="banner"></div>
         </div>
 

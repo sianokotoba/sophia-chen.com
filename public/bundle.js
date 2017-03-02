@@ -35267,7 +35267,8 @@
 	  _createClass(darkMain, [{
 	    key: 'componentWillMount',
 	    value: function componentWillMount() {
-	      if (videoURL.ma) {
+	      if (videoRef) {
+	        var videoURL = videoRef.getDownloadURL();
 	        this.setState({ url: videoURL.ma });
 	      }
 	    }
@@ -35285,7 +35286,7 @@
 	      console.log("URL on state", url);
 	      return _react2.default.createElement(
 	        'div',
-	        { className: 'row' },
+	        { className: 'row dark-main' },
 	        _react2.default.createElement(
 	          'video',
 	          { tabIndex: '0', autoPlay: 'autoplay', preload: 'preload', loop: true },
@@ -35305,7 +35306,7 @@
 	        _react2.default.createElement('div', { className: 'col-lg-2 col-md-2 col-sm-2 col-xs-2' }),
 	        _react2.default.createElement(
 	          'div',
-	          { className: 'banner-container' },
+	          { className: 'banner-container above-bio' },
 	          _react2.default.createElement('div', { className: 'banner' })
 	        ),
 	        _react2.default.createElement('div', { className: 'col-lg-2 col-md-2 col-sm-2 col-xs-2' }),
