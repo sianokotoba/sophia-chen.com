@@ -35270,9 +35270,6 @@
 	  }, {
 	    key: 'render',
 	    value: function render() {
-	      console.log("videoRef", videoRef);
-	      console.log("should be directURL now");
-	      console.log("videoURL", videoURL);
 	      return _react2.default.createElement(
 	        'div',
 	        { className: 'row' },
@@ -36045,7 +36042,7 @@
 	            autoplay: !this.state.play,
 	            open: true,
 	            onStart: function onStart() {
-	              window.location = "www.sophia-chen.com";
+	              window.location.href = "//sophia-chen.com";
 	            }
 	          },
 	          _react2.default.createElement(_materialAutoRotatingCarousel.Slide, {
