@@ -36,8 +36,8 @@
       var storage = firebase.storage();
       var storageRef = storage.ref();
       var videoRef = storageRef.child('Inkdrops_Hey_Pretty.mp4');
+      var videoURL = videoRef.getDownloadURL();
     </script>
-
     <!-- jQuery CDN -->
     <script
       src="https://code.jquery.com/jquery-3.1.1.min.js"
