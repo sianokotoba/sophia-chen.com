@@ -36,7 +36,7 @@ class darkMain extends Component {
         </div>
 
         <div className="col-lg-2 col-md-2 col-sm-2 col-xs-2"></div>
-        <div className="dark-center col-lg-8 col-md-8 col-sm-8 col-xs-8">
+        <div className="dark-center bio col-lg-8 col-md-8 col-sm-8 col-xs-8">
           <DarkBio />
         </div>
         <div className="col-lg-2 col-md-2 col-sm-2 col-xs-2"></div>

@@ -99,7 +99,7 @@ class lightMain extends Component {
             mediaBackgroundStyle={{ backgroundColor: deepPurpleA100 }}
             contentStyle={{ backgroundColor: deepPurpleA200 }}
             title="SANDY BOSKO PERFORMANCE STUDIO"
-            subtitle="Well just mix two colors and your are good to go!"
+            subtitle="Sole developer for website built on pure HTML and CSS; designed look and feel"
           />
         </AutoRotatingCarousel>
       </div>
