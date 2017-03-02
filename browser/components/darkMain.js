@@ -9,7 +9,15 @@ class darkMain extends Component {
   constructor(props) {
     super(props);
 
-    this.state = {};
+    this.state = {
+      url: ''
+    };
+  }
+
+  componentWillMount() {
+    if (videoURL.ma) {
+      this.setState({ url: videoURL.ma });
+    }
   }
 
   componentDidMount() {
@@ -17,11 +25,13 @@ class darkMain extends Component {
   }
 
   render() {
-    console.log("VU", videoURL)
+    let { url } = this.state;
+    console.log("VU", videoURL.ma);
+    console.log("URL on state", url);
     return (
       <div className="row">
         <video tabIndex="0" autoPlay="autoplay" preload="preload" loop>
-          <source type="video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;" src={videoURL.ma}>
+          <source type="video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;" src={url}>
           </source>
             <p>Sorry, your browser does not support the &lt;video&gt; element.</p>
         </video>
