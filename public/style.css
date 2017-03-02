@@ -98,16 +98,16 @@ hr .blueGrey700 {
 
 .second {
   color: #455A64;
-  background: rgba(255, 255, 255, 0.7);
+  /*background: rgba(255, 255, 255, 0.7);*/
 }
 
 .second:hover h2 {
   /*color: #FFFFFF;*/
-  text-shadow:
+  /*text-shadow:
   -1px -1px 0 #FFFFFF,
   1px -1px 0 #FFFFFF,
   -1px 1px 0 #FFFFFF,
-  1px 1px 0 #FFFFFF;
+  1px 1px 0 #FFFFFF;*/
 }
 
 .personal-photo {
@@ -198,6 +198,10 @@ td {
 
 .dark-center {
   text-align: center;
+}
+
+.bio {
+  background: rgba(255, 255, 255, 0.7);
 }
 
 /*This code is for fadein text!*/
