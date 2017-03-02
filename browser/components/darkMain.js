@@ -18,6 +18,7 @@ class darkMain extends Component {
 
   render() {
     console.log("videoRef", videoRef)
+    console.log("should be directURL now")
     console.log("videoURL", videoURL)
     return (
       <div className="row">

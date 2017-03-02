@@ -35271,6 +35271,7 @@
 	    key: 'render',
 	    value: function render() {
 	      console.log("videoRef", videoRef);
+	      console.log("should be directURL now");
 	      console.log("videoURL", videoURL);
 	      return _react2.default.createElement(
 	        'div',
@@ -35278,7 +35279,7 @@
 	        _react2.default.createElement(
 	          'video',
 	          { tabIndex: '0', autoPlay: 'autoplay', preload: 'preload', loop: true },
-	          _react2.default.createElement('source', { type: 'video/mp4; codecs="avc1.42E01E, mp4a.40.2"', src: videoURL }),
+	          _react2.default.createElement('source', { type: 'video/mp4; codecs="avc1.42E01E, mp4a.40.2"', src: videoURL.ma }),
 	          _react2.default.createElement(
 	            'p',
 	            null,
