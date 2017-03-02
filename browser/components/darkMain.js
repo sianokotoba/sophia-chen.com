@@ -17,9 +17,6 @@ class darkMain extends Component {
   }
 
   render() {
-    console.log("videoRef", videoRef)
-    console.log("should be directURL now")
-    console.log("videoURL", videoURL)
     return (
       <div className="row">
         <video tabIndex="0" autoPlay="autoplay" preload="preload" loop>
