@@ -35282,7 +35282,8 @@
 	    value: function render() {
 	      var url = this.state.url;
 	
-	      console.log("VU", videoURL);
+	      console.log("Vref", videoRef);
+	      console.log("Vurl", videoURL);
 	      console.log("URL on state", url);
 	      return _react2.default.createElement(
 	        'div',
