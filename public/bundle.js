@@ -35270,6 +35270,7 @@
 	  }, {
 	    key: 'render',
 	    value: function render() {
+	      console.log("VU", videoURL);
 	      return _react2.default.createElement(
 	        'div',
 	        { className: 'row' },
