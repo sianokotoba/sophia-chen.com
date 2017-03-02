@@ -62,53 +62,10 @@ video {
   min-width: 50%;
 }
 
-#set-height {
-  display: block;
-  height: 13500px;
-}
-
-#v0 {
-  /*position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;*/
-}
-
 hr .blueGrey700 {
   border: 1px solid #455A64;
   /*text-color: #455A64;*/
 }
-
-/*#test p {
-    margin-top: 25px;
-    font-size: 21px;
-    text-align: center;
-    color: white;
-
-    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
-    /*
-       -moz-animation: fadein 2s; /* Firefox < 16 */
-     /*   -ms-animation: fadein 2s; /* Internet Explorer */
-       /*  -o-animation: fadein 2s; /* Opera < 12.1 */
-         /*   animation: fadein 2s;
-}*/
-
-/*.first {
-  background: rgba(255, 255, 255, 0.5);
-}
-
-.second {
-}
-
-.last {
-  /*background: rgba(255, 255, 255, 0.7);*/
-  /*text-align: center;
-  margin: 0 auto;
-}
-
-.last h4 {
-  color: white;
-}*/
 
 #name-logo-wrapper {
   position: relative;
@@ -141,6 +98,7 @@ hr .blueGrey700 {
 
 .second {
   color: #455A64;
+  background: rgba(255, 255, 255, 0.7);
 }
 
 .second:hover h2 {
@@ -170,11 +128,11 @@ hr .blueGrey700 {
 
 .banner {
   /*top: 2100px;*/
-  height: 10vh;
+  height: 5vh;
   width: 100vw;
   display: inline-flex;
   position: relative;
-  background: rgba(255, 255, 255, 0.7)
+  background: rgba(255, 255, 255, 0.7);
 }
 
 .dark-credits-wrapper {
