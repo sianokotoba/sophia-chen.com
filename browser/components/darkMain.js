@@ -27,7 +27,7 @@ class darkMain extends Component {
 
   render() {
     let { url } = this.state;
-    console.log("VU", videoURL.ma);
+    console.log("VU", videoURL);
     console.log("URL on state", url);
     return (
       <div className="row dark-main">
