@@ -35258,11 +35258,20 @@
 	
 	    var _this = _possibleConstructorReturn(this, (darkMain.__proto__ || Object.getPrototypeOf(darkMain)).call(this, props));
 	
-	    _this.state = {};
+	    _this.state = {
+	      url: ''
+	    };
 	    return _this;
 	  }
 	
 	  _createClass(darkMain, [{
+	    key: 'componentWillMount',
+	    value: function componentWillMount() {
+	      if (videoURL.ma) {
+	        this.setState({ url: videoURL.ma });
+	      }
+	    }
+	  }, {
 	    key: 'componentDidMount',
 	    value: function componentDidMount() {
 	      $("#darkFadeIn h1").addClass("load");
@@ -35270,14 +35279,17 @@
 	  }, {
 	    key: 'render',
 	    value: function render() {
-	      console.log("VU", videoURL);
+	      var url = this.state.url;
+	
+	      console.log("VU", videoURL.ma);
+	      console.log("URL on state", url);
 	      return _react2.default.createElement(
 	        'div',
 	        { className: 'row' },
 	        _react2.default.createElement(
 	          'video',
 	          { tabIndex: '0', autoPlay: 'autoplay', preload: 'preload', loop: true },
-	          _react2.default.createElement('source', { type: 'video/mp4; codecs="avc1.42E01E, mp4a.40.2"', src: videoURL.ma }),
+	          _react2.default.createElement('source', { type: 'video/mp4; codecs="avc1.42E01E, mp4a.40.2"', src: url }),
 	          _react2.default.createElement(
 	            'p',
 	            null,
