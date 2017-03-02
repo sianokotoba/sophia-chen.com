@@ -35298,7 +35298,7 @@
 	        _react2.default.createElement('div', { className: 'col-lg-2 col-md-2 col-sm-2 col-xs-2' }),
 	        _react2.default.createElement(
 	          'div',
-	          { className: 'dark-center col-lg-8 col-md-8 col-sm-8 col-xs-8' },
+	          { className: 'dark-center bio col-lg-8 col-md-8 col-sm-8 col-xs-8' },
 	          _react2.default.createElement(_darkBio2.default, null)
 	        ),
 	        _react2.default.createElement('div', { className: 'col-lg-2 col-md-2 col-sm-2 col-xs-2' }),
@@ -36078,7 +36078,7 @@
 	            mediaBackgroundStyle: { backgroundColor: _colors.deepPurpleA100 },
 	            contentStyle: { backgroundColor: _colors.deepPurpleA200 },
 	            title: 'SANDY BOSKO PERFORMANCE STUDIO',
-	            subtitle: 'Well just mix two colors and your are good to go!'
+	            subtitle: 'Sole developer for website built on pure HTML and CSS; designed look and feel'
 	          })
 	        )
 	      );
