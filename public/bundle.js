@@ -35250,8 +35250,6 @@
 	
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 	
-	// import firebase from 'firebase/app';
-	
 	var darkMain = function (_Component) {
 	  _inherits(darkMain, _Component);
 	
@@ -35272,17 +35270,13 @@
 	  }, {
 	    key: 'render',
 	    value: function render() {
-	      // var storage = firebase.storage();
-	      // var storageRef = storage.ref();
-	      // var videoRef = storageRef.child('Inkdrops_Hey_Pretty.mp4');
-	      console.log("VR", videoRef);
 	      return _react2.default.createElement(
 	        'div',
 	        { className: 'row' },
 	        _react2.default.createElement(
 	          'video',
 	          { tabIndex: '0', autoPlay: 'autoplay', preload: 'preload', loop: true },
-	          _react2.default.createElement('source', { type: 'video/mp4; codecs="avc1.42E01E, mp4a.40.2"', src: videoRef.fullPath }),
+	          _react2.default.createElement('source', { type: 'video/mp4; codecs="avc1.42E01E, mp4a.40.2"', src: videoRef }),
 	          _react2.default.createElement(
 	            'p',
 	            null,
