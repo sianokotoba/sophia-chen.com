@@ -35275,14 +35275,14 @@
 	      // var storage = firebase.storage();
 	      // var storageRef = storage.ref();
 	      // var videoRef = storageRef.child('Inkdrops_Hey_Pretty.mp4');
-	      console.log("VR");
+	      console.log("VR", videoRef);
 	      return _react2.default.createElement(
 	        'div',
 	        { className: 'row' },
 	        _react2.default.createElement(
 	          'video',
 	          { tabIndex: '0', autoPlay: 'autoplay', preload: 'preload', loop: true },
-	          _react2.default.createElement('source', { type: 'video/mp4; codecs="avc1.42E01E, mp4a.40.2"', src: '' }),
+	          _react2.default.createElement('source', { type: 'video/mp4; codecs="avc1.42E01E, mp4a.40.2"', src: videoRef.fullPath }),
 	          _react2.default.createElement(
 	            'p',
 	            null,
