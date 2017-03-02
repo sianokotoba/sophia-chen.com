@@ -64,7 +64,7 @@ class lightMain extends Component {
           mobile={this.state.width <= 500 || this.state.height <= 650 ? true : false}
           autoplay={!this.state.play}
           open
-          onStart={() => { window.location = "" }}
+          onStart={() => { window.location = "www.sophia-chen.com" }}
         >
           <Slide
             media={<iframe width="100%" height="100%" src="https://www.youtube.com/embed/5izv_zAEQEI" frameBorder="0" allowFullScreen></iframe>}

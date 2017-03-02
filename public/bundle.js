@@ -29196,10 +29196,11 @@
 	exports.default = _react2.default.createElement(
 	  _reactRouter.Route,
 	  { path: '/', component: _App2.default },
-	  _react2.default.createElement(_reactRouter.IndexRoute, { component: _Home2.default }),
-	  _react2.default.createElement(_reactRouter.Route, { path: '/darkmain', component: _darkMain2.default }),
+	  _react2.default.createElement(_reactRouter.IndexRoute, { component: _darkMain2.default }),
 	  _react2.default.createElement(_reactRouter.Route, { path: '/lightmain', component: _lightMain2.default })
 	);
+	
+	// <Route path="/darkmain" component={darkMain} />
 
 /***/ },
 /* 275 */
@@ -36047,7 +36048,7 @@
 	            autoplay: !this.state.play,
 	            open: true,
 	            onStart: function onStart() {
-	              window.location = "";
+	              window.location = "www.sophia-chen.com";
 	            }
 	          },
 	          _react2.default.createElement(_materialAutoRotatingCarousel.Slide, {

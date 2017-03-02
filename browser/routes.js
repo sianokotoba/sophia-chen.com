@@ -7,8 +7,9 @@ import lightMain from './components/lightMain';
 
 export default (
   <Route path="/" component={App}>
-    <IndexRoute component={Home} />
-    <Route path="/darkmain" component={darkMain} />
+    <IndexRoute component={darkMain} />
     <Route path="/lightmain" component={lightMain} />
   </Route>
 );
+
+    // <Route path="/darkmain" component={darkMain} />
