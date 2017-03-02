@@ -17,10 +17,12 @@ class darkMain extends Component {
   }
 
   render() {
+    console.log("videoRef", videoRef)
+    console.log("videoURL", videoURL)
     return (
       <div className="row">
         <video tabIndex="0" autoPlay="autoplay" preload="preload" loop>
-          <source type="video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;">
+          <source type="video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;" src={videoURL}>
           </source>
             <p>Sorry, your browser does not support the &lt;video&gt; element.</p>
         </video>
