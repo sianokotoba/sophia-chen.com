@@ -20,7 +20,7 @@ class darkMain extends Component {
     return (
       <div className="row">
         <video tabIndex="0" autoPlay="autoplay" preload="preload" loop>
-          <source type="video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;" src={videoRef}>
+          <source type="video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;" src={videoRef.fullPath}>
           </source>
             <p>Sorry, your browser does not support the &lt;video&gt; element.</p>
         </video>
