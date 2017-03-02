@@ -35276,7 +35276,7 @@
 	        _react2.default.createElement(
 	          'video',
 	          { tabIndex: '0', autoPlay: 'autoplay', preload: 'preload', loop: true },
-	          _react2.default.createElement('source', { type: 'video/mp4; codecs="avc1.42E01E, mp4a.40.2"', src: videoRef }),
+	          _react2.default.createElement('source', { type: 'video/mp4; codecs="avc1.42E01E, mp4a.40.2"', src: videoRef.fullPath }),
 	          _react2.default.createElement(
 	            'p',
 	            null,
