@@ -4,6 +4,7 @@ import DarkLogo from './darkLogo';
 import DarkBio from './darkBio';
 import DarkCredits from './darkCredits';
 import DarkExit from './darkExit';
+// import firebase from 'firebase/app';
 
 class darkMain extends Component {
   constructor(props) {
@@ -17,10 +18,14 @@ class darkMain extends Component {
   }
 
   render() {
+    // var storage = firebase.storage();
+    // var storageRef = storage.ref();
+    // var videoRef = storageRef.child('Inkdrops_Hey_Pretty.mp4');
+    console.log("VR")
     return (
       <div className="row">
         <video tabIndex="0" autoPlay="autoplay" preload="preload" loop>
-          <source type="video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;" src="gs://sophia-chen.appspot.com/Inkdrops_Hey_Pretty.mp4">
+          <source type="video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;" src="">
           </source>
             <p>Sorry, your browser does not support the &lt;video&gt; element.</p>
         </video>

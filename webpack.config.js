@@ -3,6 +3,7 @@
 
 var webpack = require('webpack');
 var secret = require('./secrets');
+var CopyWebpackPlugin = require('copy-webpack-plugin');
 
 module.exports = {
   entry: './browser/index.js',
