@@ -35261,16 +35261,24 @@
 	    _this.state = {
 	      url: ''
 	    };
+	
+	    _this.getVideo = _this.getVideo.bind(_this);
 	    return _this;
 	  }
 	
 	  _createClass(darkMain, [{
 	    key: 'componentWillMount',
 	    value: function componentWillMount() {
-	      if (videoRef) {
-	        var videoURL = videoRef.getDownloadURL();
-	        this.setState({ url: videoURL.ma });
-	      }
+	      this.getVideo();
+	    }
+	  }, {
+	    key: 'getVideo',
+	    value: function getVideo() {
+	      var _this2 = this;
+	
+	      videoRef.getDownloadURL().then(function (url) {
+	        _this2.setState({ url: url });
+	      });
 	    }
 	  }, {
 	    key: 'componentDidMount',

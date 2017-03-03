@@ -12,13 +12,19 @@ class darkMain extends Component {
     this.state = {
       url: ''
     };
+
+    this.getVideo = this.getVideo.bind(this);
   }
 
   componentWillMount() {
-    if (videoRef) {
-      var videoURL = videoRef.getDownloadURL();
-      this.setState({ url: videoURL.ma });
-    }
+    this.getVideo();
+  }
+
+  getVideo() {
+    videoRef.getDownloadURL()
+      .then(url => {
+        this.setState({ url: url });
+      })
   }
 
   componentDidMount() {
