@@ -25,6 +25,9 @@ class darkMain extends Component {
       .then(url => {
         this.setState({ url: url });
       })
+      .catch(() => {
+        console.log("Could not find video in the database!");
+      })
   }
 
   componentDidMount() {
@@ -35,11 +38,11 @@ class darkMain extends Component {
     let { url } = this.state;
     console.log("Vref", videoRef);
     console.log("Vurl", videoURL);
-    console.log("URL on state", url);
+    console.log("URL on state", typeof url, url);
     return (
       <div className="row dark-main">
         <video tabIndex="0" autoPlay="autoplay" preload="preload" loop>
-          <source type="video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;" src={url}>
+          <source type="video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;" src={this.state.url}>
           </source>
             <p>Sorry, your browser does not support the &lt;video&gt; element.</p>
         </video>
@@ -96,32 +99,3 @@ export default connect(
   mapStateToProps,
   mapDispatchToProps
 )(darkMain);
-
-/*
-        <nav>
-          <ul className="pagination">
-            <li>
-              <a onClick={this.moveone()} aria-label="Previous">
-                <span aria-hidden="true">&laquo;</span>
-              </a>
-            </li>
-            <li><a onClick={this.moveit(0)}>1</a></li>
-            <li><a onClick={this.moveit(1)}>2</a></li>
-            <li><a onClick={this.moveit(2)}>3</a></li>
-            <li><a onClick={this.moveit(3)}>4</a></li>
-            <li><a onClick={this.moveit(4)}>5</a></li>
-            <li>
-              <a onClick="moveone()" aria-label="Next">
-                <span aria-hidden="true">&raquo;</span>
-              </a>
-            </li>
-          </ul>
-        </nav>
-*/
-
-/*
-        <div className="testcontent" style={{position: `absolute`, top: `3500px`, left: `150px`, height: `200px`, width: `500px`, background: `blue`, color: `white`, padding:`20px`}}>
-          <p>American, 1996</p>
-          <p><strong>Interactive Reaction</strong> 2009<br/>>Mixed Media</p>
-        </div>
-*/
