@@ -37,12 +37,11 @@ class darkMain extends Component {
   render() {
     let { url } = this.state;
     console.log("Vref", videoRef);
-    console.log("Vurl", videoURL);
     console.log("URL on state", typeof url, url);
     return (
       <div className="row dark-main">
         <video tabIndex="0" autoPlay="autoplay" preload="preload" loop>
-          <source type="video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;" src={this.state.url}>
+          <source type="video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;" src="https://firebasestorage.googleapis.com/v0/b/sophia-chen.appspot.com/o/Inkdrops_Hey_Pretty.mp4?alt=media&token=6e7630d7-172f-4757-8a24-a21676cf852a">
           </source>
             <p>Sorry, your browser does not support the &lt;video&gt; element.</p>
         </video>

@@ -35295,7 +35295,6 @@
 	      var url = this.state.url;
 	
 	      console.log("Vref", videoRef);
-	      console.log("Vurl", videoURL);
 	      console.log("URL on state", typeof url === 'undefined' ? 'undefined' : _typeof(url), url);
 	      return _react2.default.createElement(
 	        'div',
@@ -35303,7 +35302,7 @@
 	        _react2.default.createElement(
 	          'video',
 	          { tabIndex: '0', autoPlay: 'autoplay', preload: 'preload', loop: true },
-	          _react2.default.createElement('source', { type: 'video/mp4; codecs="avc1.42E01E, mp4a.40.2"', src: this.state.url }),
+	          _react2.default.createElement('source', { type: 'video/mp4; codecs="avc1.42E01E, mp4a.40.2"', src: 'https://firebasestorage.googleapis.com/v0/b/sophia-chen.appspot.com/o/Inkdrops_Hey_Pretty.mp4?alt=media&token=6e7630d7-172f-4757-8a24-a21676cf852a' }),
 	          _react2.default.createElement(
 	            'p',
 	            null,
