@@ -35299,16 +35299,6 @@
 	      return _react2.default.createElement(
 	        'div',
 	        { className: 'row dark-main' },
-	        _react2.default.createElement(
-	          'video',
-	          { tabIndex: '0', autoPlay: 'autoplay', preload: 'preload', loop: true },
-	          _react2.default.createElement('source', { type: 'video/mp4; codecs="avc1.42E01E, mp4a.40.2"', src: 'https://firebasestorage.googleapis.com/v0/b/sophia-chen.appspot.com/o/Inkdrops_Hey_Pretty.mp4?alt=media&token=6e7630d7-172f-4757-8a24-a21676cf852a' }),
-	          _react2.default.createElement(
-	            'p',
-	            null,
-	            'Sorry, your browser does not support the <video> element.'
-	          )
-	        ),
 	        _react2.default.createElement('div', { className: 'col-lg-2 col-md-2 col-sm-2 col-xs-2' }),
 	        _react2.default.createElement(
 	          'div',

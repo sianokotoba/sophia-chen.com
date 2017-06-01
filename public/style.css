@@ -1,7 +1,11 @@
 .app-container {
-  /*background: url('media/lightbulb.png');*/
+  background: url('media/death-bg-name.svg');
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: contain;
+  background-repeat: no-repeat;
   /*height: 100vh;*/
-  width: 100vw;
+  /*width: 100vw;*/
   font-family: 'NTR', sans-serif;
 }
 
