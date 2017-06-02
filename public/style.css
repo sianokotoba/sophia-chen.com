@@ -152,6 +152,10 @@ hr .blueGrey700 {
   background: rgba(255, 255, 255, 0.7);
 }
 
+.third {
+  height: 100vh;
+}
+
 .dark-credits-wrapper {
   overflow: hidden;
 }
@@ -173,7 +177,7 @@ hr .blueGrey700 {
   -webkit-animation-play-state: paused;
 }
 
-#carousel {
+.carousel {
   background-color: rgba(245,245,245,1);
 }
 
