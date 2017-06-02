@@ -1,8 +1,30 @@
 .app-container {
-  /*background: url('media/lightbulb.png');*/
-  /*height: 100vh;*/
-  width: 100vw;
-  font-family: 'NTR', sans-serif;
+  height: 100vh;
+  /*width: 100vw;*/
+  background-color: transparent;
+  font-family: 'Kalam', cursive;
+  text-align: center;
+}
+
+
+.death-bg {
+  /*background: url('media/death-bg-name.svg');*/
+  /*background-position: center center;
+  background-attachment: fixed;
+  background-size: contain;
+  background-repeat: no-repeat;*/
+  width: 100%;
+  max-width: 523px;
+  /*max-height: 100vh;*/
+  /*height: 300px;*/
+  vertical-align: middle;
+}
+
+.dark-main {
+  height: 100vh;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
 }
 
 .home-container {
@@ -48,7 +70,7 @@
 }
 
 video {
-  background-color: #FFFFFF;
+  background-color: #B0BEC5;
   /*background-position: center center;*/
   /*position: absolute;*/
   position: fixed;
@@ -62,53 +84,10 @@ video {
   min-width: 50%;
 }
 
-#set-height {
-  display: block;
-  height: 13500px;
-}
-
-#v0 {
-  /*position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;*/
-}
-
 hr .blueGrey700 {
   border: 1px solid #455A64;
   /*text-color: #455A64;*/
 }
-
-/*#test p {
-    margin-top: 25px;
-    font-size: 21px;
-    text-align: center;
-    color: white;
-
-    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
-    /*
-       -moz-animation: fadein 2s; /* Firefox < 16 */
-     /*   -ms-animation: fadein 2s; /* Internet Explorer */
-       /*  -o-animation: fadein 2s; /* Opera < 12.1 */
-         /*   animation: fadein 2s;
-}*/
-
-/*.first {
-  background: rgba(255, 255, 255, 0.5);
-}
-
-.second {
-}
-
-.last {
-  /*background: rgba(255, 255, 255, 0.7);*/
-  /*text-align: center;
-  margin: 0 auto;
-}
-
-.last h4 {
-  color: white;
-}*/
 
 #name-logo-wrapper {
   position: relative;
@@ -135,21 +114,20 @@ hr .blueGrey700 {
   opacity:0;
 }
 
-.first {
-  height: 100vh;
-}
 
-.second {
-  color: #455A64;
-}
 
 .second:hover h2 {
   /*color: #FFFFFF;*/
-  text-shadow:
+  /*text-shadow:
   -1px -1px 0 #FFFFFF,
   1px -1px 0 #FFFFFF,
   -1px 1px 0 #FFFFFF,
-  1px 1px 0 #FFFFFF;
+  1px 1px 0 #FFFFFF;*/
+}
+
+.bio-wrapper {
+  margin-top: 40px;
+  margin-bottom: 30px;
 }
 
 .personal-photo {
@@ -160,9 +138,6 @@ hr .blueGrey700 {
   max-width: 450px;
 }
 
-.third {
-  height: 100vh;
-}
 
 .banner-container {
   /*position: absolute;*/
@@ -170,11 +145,11 @@ hr .blueGrey700 {
 
 .banner {
   /*top: 2100px;*/
-  height: 10vh;
+  height: 5vh;
   width: 100vw;
   display: inline-flex;
   position: relative;
-  background: rgba(255, 255, 255, 0.7)
+  background: rgba(255, 255, 255, 0.7);
 }
 
 .dark-credits-wrapper {
@@ -196,6 +171,17 @@ hr .blueGrey700 {
 
 .carousel:hover {
   -webkit-animation-play-state: paused;
+}
+
+#carousel {
+  background-color: rgba(245,245,245,1);
+}
+
+.facts {
+  text-align: left;
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 
 /* This determines the length of the scrolling credits/text */
@@ -234,12 +220,8 @@ td {
   text-align: left;
 }
 
-.fourth {
-  /*height: 100vh;*/
-}
-
-.dark-center {
-  text-align: center;
+.bio {
+  background: rgba(255, 255, 255, 1);
 }
 
 /*This code is for fadein text!*/

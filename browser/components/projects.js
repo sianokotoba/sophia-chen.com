@@ -4,7 +4,7 @@ import { Link } from 'react-router';
 import { AutoRotatingCarousel, Slide } from 'material-auto-rotating-carousel'
 import { cyan100, cyan600, deepPurpleA100, deepPurpleA200, blue200, blue500, blueGrey50, blueGrey300, red400, red600 } from 'material-ui/styles/colors'
 
-class lightMain extends Component {
+class Projects extends Component {
   constructor(props) {
     super(props);
 
@@ -64,7 +64,7 @@ class lightMain extends Component {
           mobile={this.state.width <= 500 || this.state.height <= 650 ? true : false}
           autoplay={!this.state.play}
           open
-          onStart={() => { window.location = "" }}
+          onStart={() => { window.location.href = "//sophia-chen.com" }}
         >
           <Slide
             media={<iframe width="100%" height="100%" src="https://www.youtube.com/embed/5izv_zAEQEI" frameBorder="0" allowFullScreen></iframe>}
@@ -99,7 +99,7 @@ class lightMain extends Component {
             mediaBackgroundStyle={{ backgroundColor: deepPurpleA100 }}
             contentStyle={{ backgroundColor: deepPurpleA200 }}
             title="SANDY BOSKO PERFORMANCE STUDIO"
-            subtitle="Well just mix two colors and your are good to go!"
+            subtitle="Sole developer for website built on pure HTML and CSS; designed look and feel"
           />
         </AutoRotatingCarousel>
       </div>
@@ -118,4 +118,4 @@ const mapDispatchToProps = () => ({
 export default connect(
   mapStateToProps,
   mapDispatchToProps
-)(lightMain);
+)(Projects);

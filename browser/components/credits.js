@@ -6,7 +6,7 @@ export default class extends Component {
       <div className="row">
         <div className="col-sm-2"></div>
         <div className="col-sm-8">
-          <div className="third dark-credits-wrapper">
+          <div className="dark-credits-wrapper">
             <div className="row dark-credits">
               <div className="col-sm-12">
                 <h1>CREDITS</h1>
@@ -33,20 +33,21 @@ export default class extends Component {
                 <br />
                 <hr className="blueGrey700"/>
                 <br />
-                <h2>SONGS</h2>
-                <h3>Hey Pretty</h3>
-                <h5>written by POE and MARK Z. DANIELEWSKI</h5>
-                <h5>performed by POE</h5>
+                <h2>HOMEPAGE IMAGE</h2>
+                <h3>The Wild Unknown Deck</h3>
+                <h5>drawn by Kim Krans</h5>
                 <br />
                 <hr className="blueGrey700"/>
                 <br />
-                <h2>VIDEOS</h2>
-                <h3>Inkdrops</h3>
-                <h5>filmed by JACOB+KATIE SCHWARZ film</h5>
+                <h2>ICONS</h2>
+                <h3>BBD Icons</h3>
+                <h5>drawn by LeBlanc</h5>
+                <h3>BBD Icons</h3>
+                <h5>drawn by Ethan Kociela</h5>
                 <br />
                 <hr />
                 <br />
-                <h2>TECHNOLOGIES</h2>
+                <h2>TECHNOLOGIES USED HERE</h2>
               </div>
               <div className="col-sm-6 col-xs-12">
                 <br />
