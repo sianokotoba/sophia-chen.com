@@ -1,8 +1,30 @@
 .app-container {
-  /*background: url('media/lightbulb.png');*/
-  /*height: 100vh;*/
-  width: 100vw;
-  font-family: 'NTR', sans-serif;
+  height: 100vh;
+  /*width: 100vw;*/
+  background-color: transparent;
+  font-family: 'Kalam', cursive;
+  text-align: center;
+}
+
+
+.death-bg {
+  /*background: url('media/death-bg-name.svg');*/
+  /*background-position: center center;
+  background-attachment: fixed;
+  background-size: contain;
+  background-repeat: no-repeat;*/
+  width: 100%;
+  max-width: 523px;
+  /*max-height: 100vh;*/
+  /*height: 300px;*/
+  vertical-align: middle;
+}
+
+.dark-main {
+  height: 100vh;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
 }
 
 .home-container {
@@ -92,14 +114,7 @@ hr .blueGrey700 {
   opacity:0;
 }
 
-.first {
-  height: 100vh;
-}
 
-.second {
-  color: #455A64;
-  /*background: rgba(255, 255, 255, 0.7);*/
-}
 
 .second:hover h2 {
   /*color: #FFFFFF;*/
@@ -110,6 +125,11 @@ hr .blueGrey700 {
   1px 1px 0 #FFFFFF;*/
 }
 
+.bio-wrapper {
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
 .personal-photo {
   position: relative;
   left: 0;
@@ -118,9 +138,6 @@ hr .blueGrey700 {
   max-width: 450px;
 }
 
-.third {
-  height: 100vh;
-}
 
 .banner-container {
   /*position: absolute;*/
@@ -154,6 +171,17 @@ hr .blueGrey700 {
 
 .carousel:hover {
   -webkit-animation-play-state: paused;
+}
+
+#carousel {
+  background-color: rgba(245,245,245,1);
+}
+
+.facts {
+  text-align: left;
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 
 /* This determines the length of the scrolling credits/text */
@@ -192,16 +220,8 @@ td {
   text-align: left;
 }
 
-.fourth {
-  /*height: 100vh;*/
-}
-
-.dark-center {
-  text-align: center;
-}
-
 .bio {
-  background: rgba(255, 255, 255, 0.7);
+  background: rgba(255, 255, 255, 1);
 }
 
 /*This code is for fadein text!*/

@@ -4,34 +4,34 @@ export default class extends Component {
   render () {
     return (
       <div className="row">
-        <div className="col-sm-2"></div>
-        <div className="col-sm-8">
-          <div className="fourth">
-            <div className="col-sm-3 col-xs-12">
+        <div className="col-sm-1"></div>
+        <div className="col-sm-10">
+          <div className="row">
+            <div className="col-sm-3 col-xs-6">
               <br />
               <a target="_blank" href="https://github.com/sianokotoba">
-                <img src="/media/github-logo.svg" width="75px" />
+                <img src="/media/github-drawn.png" width="75px" />
               </a>
               <br />
             </div>
-            <div className="col-sm-3 col-xs-12">
+            <div className="col-sm-3 col-xs-6">
               <br />
               <a target="_blank" href="https://www.linkedin.com/in/schen22">
-                <img src="/media/linkedin-logo.png" width="75px" />
+                <img src="/media/Linkedin-57.png" width="75px" />
               </a>
               <br />
             </div>
-            <div className="col-sm-3 col-xs-12">
+            <div className="col-sm-3 col-xs-6">
               <br />
               <a href="/media/Sophia-Chen-resume.pdf" className="button" download>
-                <img src="/media/resume-logo.png" width="75px" />
+                <img src="/media/Notepad-resume.png" width="75px" />
               </a>
               <br />
             </div>
-            <div className="col-sm-3 col-xs-12">
+            <div className="col-sm-3 col-xs-6">
               <br />
               <a href="mailto:schen22@gmail.com">
-                <img src="/media/gmail-logo.png" width="70px" />
+                <img src="/media/Gmail.png" width="70px" />
               </a>
               <br />
             </div>
@@ -42,7 +42,7 @@ export default class extends Component {
             </div>
           </div>
         </div>
-        <div className="col-sm-2"></div>
+        <div className="col-sm-1"></div>
       </div>
     )
   }
