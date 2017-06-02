@@ -12,11 +12,12 @@ This is a personal portfolio of Sophia Chen using the following technologies:
 - [CSS]
 
 ## Credits
-**SONGS**
-Hey Pretty
-_written by POE and MARK Z. DANIELEWSKI_
-_performed by POE_
+**HOMEPAGE IMAGE**
+The Wild Unknown Deck
+_drawn by Kim Krans_
 
-**VIDEOS**
-Inkdrops
-_filmed by JACOB+KATIE SCHWARZ film_
+**ICONS**
+BBD Icons
+_drawn by LeBlanc_
+Sketchy Social Media Icons
+_drawn by Ethan Kociela_
