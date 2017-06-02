@@ -29976,7 +29976,7 @@
 	    zIndex: 1400,
 	    left: 0,
 	    top: 0,
-	    backgroundColor: 'rgba(0,0,0,.122)',
+	    backgroundColor: 'rgba(245,245,245,1)',
 	    transition: 'opacity 400ms cubic-bezier(0.4, 0, 0.2, 1)'
 	  },
 	  content: {
@@ -72907,7 +72907,7 @@
 	                _react2.default.createElement(
 	                  "h3",
 	                  null,
-	                  "BBD Icons"
+	                  "Sketchy Social Media Icons"
 	                ),
 	                _react2.default.createElement(
 	                  "h5",

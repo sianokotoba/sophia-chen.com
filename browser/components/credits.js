@@ -42,7 +42,7 @@ export default class extends Component {
                 <h2>ICONS</h2>
                 <h3>BBD Icons</h3>
                 <h5>drawn by LeBlanc</h5>
-                <h3>BBD Icons</h3>
+                <h3>Sketchy Social Media Icons</h3>
                 <h5>drawn by Ethan Kociela</h5>
                 <br />
                 <hr />
