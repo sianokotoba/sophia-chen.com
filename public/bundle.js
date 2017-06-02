@@ -35244,6 +35244,10 @@
 	
 	var _darkExit2 = _interopRequireDefault(_darkExit);
 	
+	var _navbar = __webpack_require__(711);
+	
+	var _navbar2 = _interopRequireDefault(_navbar);
+	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -35303,38 +35307,16 @@
 	        _react2.default.createElement(
 	          'div',
 	          { className: 'dark-center col-lg-8 col-md-8 col-sm-8 col-xs-8' },
-	          _react2.default.createElement(_darkLogo2.default, null)
+	          _react2.default.createElement(_navbar2.default, null)
 	        ),
 	        _react2.default.createElement('div', { className: 'col-lg-2 col-md-2 col-sm-2 col-xs-2' }),
-	        _react2.default.createElement(
-	          'div',
-	          { className: 'banner-container above-bio' },
-	          _react2.default.createElement('div', { className: 'banner' })
-	        ),
-	        _react2.default.createElement('div', { className: 'col-lg-2 col-md-2 col-sm-2 col-xs-2' }),
-	        _react2.default.createElement(
-	          'div',
-	          { className: 'dark-center bio col-lg-8 col-md-8 col-sm-8 col-xs-8' },
-	          _react2.default.createElement(_darkBio2.default, null)
-	        ),
-	        _react2.default.createElement('div', { className: 'col-lg-2 col-md-2 col-sm-2 col-xs-2' }),
-	        _react2.default.createElement(
-	          'div',
-	          { className: 'banner-container' },
-	          _react2.default.createElement('div', { className: 'banner' })
-	        ),
 	        _react2.default.createElement('div', { className: 'col-lg-2 col-md-2 col-sm-2 col-xs-2' }),
 	        _react2.default.createElement(
 	          'div',
 	          { className: 'dark-center col-lg-8 col-md-8 col-sm-8 col-xs-8' },
-	          _react2.default.createElement(_darkCredits2.default, null)
+	          _react2.default.createElement('img', { src: 'media/death-bg-name.svg', className: 'death-bg' })
 	        ),
 	        _react2.default.createElement('div', { className: 'col-lg-2 col-md-2 col-sm-2 col-xs-2' }),
-	        _react2.default.createElement(
-	          'div',
-	          { className: 'banner-container' },
-	          _react2.default.createElement('div', { className: 'banner' })
-	        ),
 	        _react2.default.createElement('div', { className: 'col-lg-2 col-md-2 col-sm-2 col-xs-2' }),
 	        _react2.default.createElement(
 	          'div',
@@ -35858,7 +35840,7 @@
 	              _react2.default.createElement(
 	                "a",
 	                { target: "_blank", href: "https://github.com/sianokotoba" },
-	                _react2.default.createElement("img", { src: "/media/github-logo.svg", width: "75px" })
+	                _react2.default.createElement("img", { src: "/media/github-drawn.png", width: "75px" })
 	              ),
 	              _react2.default.createElement("br", null)
 	            ),
@@ -35869,7 +35851,7 @@
 	              _react2.default.createElement(
 	                "a",
 	                { target: "_blank", href: "https://www.linkedin.com/in/schen22" },
-	                _react2.default.createElement("img", { src: "/media/linkedin-logo.png", width: "75px" })
+	                _react2.default.createElement("img", { src: "/media/Linkedin-57.png", width: "75px" })
 	              ),
 	              _react2.default.createElement("br", null)
 	            ),
@@ -35880,7 +35862,7 @@
 	              _react2.default.createElement(
 	                "a",
 	                { href: "/media/Sophia-Chen-resume.pdf", className: "button", download: true },
-	                _react2.default.createElement("img", { src: "/media/resume-logo.png", width: "75px" })
+	                _react2.default.createElement("img", { src: "/media/Notepad-resume.png", width: "75px" })
 	              ),
 	              _react2.default.createElement("br", null)
 	            ),
@@ -35891,7 +35873,7 @@
 	              _react2.default.createElement(
 	                "a",
 	                { href: "mailto:schen22@gmail.com" },
-	                _react2.default.createElement("img", { src: "/media/gmail-logo.png", width: "70px" })
+	                _react2.default.createElement("img", { src: "/media/Gmail.png", width: "70px" })
 	              ),
 	              _react2.default.createElement("br", null)
 	            ),
@@ -73773,6 +73755,108 @@
 	};
 	
 	module.exports = keyOf;
+
+/***/ },
+/* 711 */
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+	
+	var _react = __webpack_require__(1);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+	
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+	
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+	
+	var _class = function (_Component) {
+	  _inherits(_class, _Component);
+	
+	  function _class() {
+	    _classCallCheck(this, _class);
+	
+	    return _possibleConstructorReturn(this, (_class.__proto__ || Object.getPrototypeOf(_class)).apply(this, arguments));
+	  }
+	
+	  _createClass(_class, [{
+	    key: "render",
+	    value: function render() {
+	      return _react2.default.createElement(
+	        "div",
+	        { className: "row" },
+	        _react2.default.createElement("div", { className: "col-sm-2" }),
+	        _react2.default.createElement(
+	          "div",
+	          { className: "col-sm-8" },
+	          _react2.default.createElement(
+	            "div",
+	            { className: "fourth" },
+	            _react2.default.createElement(
+	              "div",
+	              { className: "col-sm-3 col-xs-12" },
+	              _react2.default.createElement("br", null),
+	              _react2.default.createElement(
+	                "a",
+	                { target: "_blank", href: "https://github.com/sianokotoba" },
+	                _react2.default.createElement("img", { src: "/media/about-me-icon.png", width: "100px" })
+	              ),
+	              _react2.default.createElement("br", null)
+	            ),
+	            _react2.default.createElement(
+	              "div",
+	              { className: "col-sm-3 col-xs-12" },
+	              _react2.default.createElement("br", null),
+	              _react2.default.createElement(
+	                "a",
+	                { target: "_blank", href: "https://www.linkedin.com/in/schen22" },
+	                _react2.default.createElement("img", { src: "/media/projects-icon-2.png", width: "100px" })
+	              ),
+	              _react2.default.createElement("br", null)
+	            ),
+	            _react2.default.createElement(
+	              "div",
+	              { className: "col-sm-3 col-xs-12" },
+	              _react2.default.createElement("br", null),
+	              _react2.default.createElement(
+	                "a",
+	                { href: "/media/Sophia-Chen-resume.pdf", className: "button", download: true },
+	                _react2.default.createElement("img", { src: "/media/fun-facts-icon.png", width: "100px" })
+	              ),
+	              _react2.default.createElement("br", null)
+	            ),
+	            _react2.default.createElement(
+	              "div",
+	              { className: "col-sm-3 col-xs-12" },
+	              _react2.default.createElement("br", null),
+	              _react2.default.createElement(
+	                "a",
+	                { href: "mailto:schen22@gmail.com" },
+	                _react2.default.createElement("img", { src: "/media/credits-icon.png", width: "100px" })
+	              ),
+	              _react2.default.createElement("br", null)
+	            )
+	          )
+	        ),
+	        _react2.default.createElement("div", { className: "col-sm-2" })
+	      );
+	    }
+	  }]);
+
+	  return _class;
+	}(_react.Component);
+
+	exports.default = _class;
 
 /***/ }
 /******/ ]);

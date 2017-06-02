@@ -1,12 +1,26 @@
 .app-container {
-  background: url('media/death-bg-name.svg');
-  background-position: center center;
-  background-attachment: fixed;
-  background-size: contain;
-  background-repeat: no-repeat;
   /*height: 100vh;*/
   /*width: 100vw;*/
+  background-color: transparent;
   font-family: 'NTR', sans-serif;
+}
+
+
+.death-bg {
+  /*background: url('media/death-bg-name.svg');*/
+  /*background-position: center center;
+  background-attachment: fixed;
+  background-size: contain;
+  background-repeat: no-repeat;*/
+  max-width:100%;
+  /*max-height:100%;*/
+  vertical-align: middle;
+}
+.dark-main {
+  height: 100vh;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
 }
 
 .home-container {
