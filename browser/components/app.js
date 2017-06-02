@@ -13,15 +13,15 @@ class App extends Component {
       <div className="app-container">
         <div className="row">
           <div className="col-lg-2 col-md-2 col-sm-2 col-xs-2"></div>
-          <div className="dark-center col-lg-8 col-md-8 col-sm-8 col-xs-8">
+          <div className="col-lg-8 col-md-8 col-sm-8 col-xs-8">
             <Navbar />
           </div>
           <div className="col-lg-2 col-md-2 col-sm-2 col-xs-2"></div>
         </div>
 
-        <div className="row centerfold">
+        <div className="row">
           <div className="col-lg-2 col-md-2 col-sm-2 col-xs-2"></div>
-          <div className="dark-center col-lg-8 col-md-8 col-sm-8 col-xs-8">
+          <div className="col-lg-8 col-md-8 col-sm-8 col-xs-8">
             {this.props.children}
           </div>
           <div className="col-lg-2 col-md-2 col-sm-2 col-xs-2"></div>
@@ -29,7 +29,7 @@ class App extends Component {
 
         <div className="row">
           <div className="col-lg-2 col-md-2 col-sm-2 col-xs-2"></div>
-          <div className="dark-center col-lg-8 col-md-8 col-sm-8 col-xs-8">
+          <div className="col-lg-8 col-md-8 col-sm-8 col-xs-8">
             <Footer />
           </div>
           <div className="col-lg-2 col-md-2 col-sm-2 col-xs-2"></div>

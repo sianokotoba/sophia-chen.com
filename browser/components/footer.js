@@ -6,7 +6,7 @@ export default class extends Component {
       <div className="row">
         <div className="col-sm-1"></div>
         <div className="col-sm-10">
-          <div className="fourth row">
+          <div className="row">
             <div className="col-sm-3 col-xs-6">
               <br />
               <a target="_blank" href="https://github.com/sianokotoba">

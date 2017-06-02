@@ -4,7 +4,7 @@ import { Link } from 'react-router';
 import { AutoRotatingCarousel, Slide } from 'material-auto-rotating-carousel'
 import { cyan100, cyan600, deepPurpleA100, deepPurpleA200, blue200, blue500, blueGrey50, blueGrey300, red400, red600 } from 'material-ui/styles/colors'
 
-class lightMain extends Component {
+class Projects extends Component {
   constructor(props) {
     super(props);
 
@@ -118,4 +118,4 @@ const mapDispatchToProps = () => ({
 export default connect(
   mapStateToProps,
   mapDispatchToProps
-)(lightMain);
+)(Projects);
